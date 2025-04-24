@@ -266,7 +266,7 @@ const animationTimeline = () => {
 })
 .to(".videotron", 0.5, {
     opacity: 0,
-    delay: 37, // ← tampil selama 5 detik, lalu hilang
+    delay: 35.5, // ← tampil selama 5 detik, lalu hilang
     onComplete: () => {
         document.querySelector(".videotron").style.display = "none";
     }
